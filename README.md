@@ -34,7 +34,7 @@ Los pasos seguidos fueron definidos en el documento proporcionado por el docente
 * Se reinicia los servidores de mongoDB, pero no permitió el reinicio, devolviendo que el servicio no está respondiendo a la función de control. Para continuar con los demás pasos, se omite el paso 6.
 ![rebootMongoDBFailed](/assets/rebootMongoDBFailed.png)
 7. Por último, se realizó una conexión a MongoDB desde Compass, donde se validaron cada de los usuarios:
-* Para conectarse a adminUser se tiene que ingresar el nombre del usuario, contraseña y la base de datos de la que tendrá control.
+* Para conectarse a adminUser se tiene que ingresar el nombre del usuario, contraseña y la base de datos de la que tendrá control. <br>
 ![AuthenticationAdminCompass](/assets/AuthenticationAdminCompass.png) <br>
 Este usuario dio acceso a todas las bases de datos del localhost.
 ![connectAdminUserCompass](/assets/connectAdminUserCompass.png)
