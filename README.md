@@ -35,8 +35,8 @@ Los pasos seguidos fueron definidos en el documento proporcionado por el docente
 ![rebootMongoDBFailed](/assets/rebootMongoDBFailed.png)
 7. Por último, se realizó una conexión a MongoDB desde Compass, donde se validaron cada de los usuarios:
 * Para conectarse a adminUser se tiene que ingresar el nombre del usuario, contraseña y la base de datos de la que tendrá control.
-![AuthenticationAdminCompass](/assets/AuthenticationAdminCompass.png)
- Este usuario dio acceso a todas las bases de datos del localhost.
+![AuthenticationAdminCompass](/assets/AuthenticationAdminCompass.png) <br>
+Este usuario dio acceso a todas las bases de datos del localhost.
 ![connectAdminUserCompass](/assets/connectAdminUserCompass.png)
 * La conexión con readUser resultó que solo podía ver la base de datos miBaseDatos, al igual que  no permitía modificar ni eliminar nada, los buscar.
 ![connectReadUserCompass](/assets/connectReadUserCompass.png)
